@@ -1,14 +1,31 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package Data.Interfaces;
 
 /**
- *
+ * An interface that tell how to implement the information Coordinates class
  * @author BrunoBorges
+ * @version 1.0.0
  */
 public interface Coordinates {
     
+    /*
+        Set of public methods that fill the variables
+    */
+    
+    public void setRecno(String r_e_c_n_o);
+    public void setLatitude(String latitude);
+    public void setLongitude(String longitude);
+    public void setAddress(String address);
+    public void setFormattedAddress(String formatted);
+    
+    
+    
+    /*
+        Set of public methods that returns the private variables
+    */
+    
+    public String getRecno();
+    public String getLatitude();
+    public String getLongitude();
+    public String getAddress();
+    public String getFormmattedAddress();
 }
