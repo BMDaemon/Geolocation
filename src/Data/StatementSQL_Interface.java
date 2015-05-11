@@ -1,11 +1,11 @@
-package Data.Interfaces;
+package Data;
 
 /**
  * An interface that tell how to implement the SQL data statements
  * @author BrunoBorges
  * @version 1.0.0
  */
-public interface StatementSQL {
+public interface StatementSQL_Interface {
     
     
     /*

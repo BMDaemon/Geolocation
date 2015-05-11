@@ -1,11 +1,11 @@
-package Data.Interfaces;
+package Data;
 
 /**
- * An interface that tell how to implement the information Coordinates class
+ * An interface that tell how to implement the information Coordinates_Interface class
  * @author BrunoBorges
  * @version 1.0.0
  */
-public interface Coordinates {
+public interface Coordinates_Interface {
     
     /*
         Set of public methods that fill the variables
